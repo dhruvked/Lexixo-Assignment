@@ -1,0 +1,336 @@
+{
+  "summary": {
+    "total": 19,
+    "passed": 19,
+    "failed": 0,
+    "overall_pct": 100,
+    "avg_latency_s": 11.95
+  },
+  "in_corpus": [
+    {
+      "id": 1,
+      "question": "What notice period applies when Bluecrest or Priya Nambiar ends the employment agreement?",
+      "answer_snippet": "Either Bluecrest Analytics LLP or Priya Nambiar may end the employment agreement by providing 60 days of written notice. During this notice period, Priya Nambiar is required to hand over all laptops, badges, and access to source code.",
+      "citations": [
+        "02_employment_agreement_excerpt.md"
+      ],
+      "fact_recall_pct": 100,
+      "fact_hits": {
+        "60 days written notice": true,
+        "laptops": true,
+        "badges": true,
+        "source code access": true
+      },
+      "citation_ok": true,
+      "faithfulness": 3,
+      "latency_s": 17.58,
+      "passed": true
+    },
+    {
+      "id": 2,
+      "question": "How long is the non-compete after leaving Bluecrest, and when does it apply?",
+      "answer_snippet": "The non-compete clause lasts for 12 months after leaving Bluecrest Analytics. It applies if the employee works for a direct competitor in the same city where Bluecrest has an office, provided the new role utilizes the same client list that was supplied by Bluecrest.",
+      "citations": [
+        "02_employment_agreement_excerpt.md"
+      ],
+      "fact_recall_pct": 100,
+      "fact_hits": {
+        "12 months": true,
+        "direct competitor": true,
+        "same city": true,
+        "client list": true
+      },
+      "citation_ok": true,
+      "faithfulness": 3,
+      "latency_s": 10.71,
+      "passed": true
+    },
+    {
+      "id": 3,
+      "question": "What kinds of information are called out as confidential in the Bluecrest excerpt?",
+      "answer_snippet": "In the Bluecrest Analytics employment agreement, confidential information is defined to include pricing sheets, unreleased product roadmaps, and customer names that have been marked as confidential in writing.",
+      "citations": [
+        "02_employment_agreement_excerpt.md"
+      ],
+      "fact_recall_pct": 100,
+      "fact_hits": {
+        "pricing sheets": true,
+        "product roadmaps": true,
+        "customer names": true,
+        "confidential": true
+      },
+      "citation_ok": true,
+      "faithfulness": 3,
+      "latency_s": 14.98,
+      "passed": true
+    },
+    {
+      "id": 4,
+      "question": "What is the civil suit number and who are the parties in the transport invoice dispute memo?",
+      "answer_snippet": "The civil suit number for the transport invoice dispute is CV-2024-8812. The parties involved in the matter are the plaintiff, Arvind Mehta, and the defendant, Northfield Logistics Pvt. Ltd.",
+      "citations": [
+        "01_matter_memo_arvind_v_northfield.md",
+        "03_hearing_notice_template.md"
+      ],
+      "fact_recall_pct": 60,
+      "fact_hits": {
+        "CV-2024-8812": true,
+        "Arvind Mehta": true,
+        "Northfield Logistics": true,
+        "invoices": false,
+        "damaged goods": false
+      },
+      "citation_ok": true,
+      "faithfulness": 3,
+      "latency_s": 7.27,
+      "passed": true
+    },
+    {
+      "id": 5,
+      "question": "Under the memo, what limitation period applies to contract claims under the fictional Riverside Code?",
+      "answer_snippet": "Under the Riverside Code, the limitation period for contract claims is three years from the date of the breach.",
+      "citations": [
+        "01_matter_memo_arvind_v_northfield.md"
+      ],
+      "fact_recall_pct": 100,
+      "fact_hits": {
+        "three years": true,
+        "breach": true
+      },
+      "citation_ok": true,
+      "faithfulness": 3,
+      "latency_s": 12.72,
+      "passed": true
+    },
+    {
+      "id": 6,
+      "question": "When is the next hearing in Arvind Mehta v. Northfield, and what is scheduled?",
+      "answer_snippet": "The next hearing in Arvind Mehta v. Northfield is scheduled for 15 August 2025. The purpose of this hearing is for the witness for the plaintiff, specifically the billing head, to be examined. Additionally, the hearing will address arguments regarding the invoice set-off. Parties are required to fil",
+      "citations": [
+        "01_matter_memo_arvind_v_northfield.md",
+        "03_hearing_notice_template.md",
+        "05_counsel_notes_settlement.md"
+      ],
+      "fact_recall_pct": 100,
+      "fact_hits": {
+        "15 August 2025": true,
+        "witness": true,
+        "billing": true
+      },
+      "citation_ok": true,
+      "faithfulness": 3,
+      "latency_s": 29.16,
+      "passed": true
+    },
+    {
+      "id": 7,
+      "question": "How many clear days before the listed date must parties file written arguments under the hearing notice rules?",
+      "answer_snippet": "Under the hearing notice rules, parties are directed to file written arguments seven clear days before the listed date. Late filings may not be read without leave of court.",
+      "citations": [
+        "03_hearing_notice_template.md"
+      ],
+      "fact_recall_pct": 100,
+      "fact_hits": {
+        "seven": true,
+        "clear days": true,
+        "late filings": true
+      },
+      "citation_ok": true,
+      "faithfulness": 3,
+      "latency_s": 6.43,
+      "passed": true
+    },
+    {
+      "id": 8,
+      "question": "What time is case CV-2024-8812 listed, and what is it for?",
+      "answer_snippet": "Case CV-2024-8812 is listed for 11:00 a.m. The hearing is for arguments regarding invoice set-off. Additionally, parties are directed to file written arguments seven clear days before the listed date, noting that late filings may not be read without leave of court.",
+      "citations": [
+        "03_hearing_notice_template.md"
+      ],
+      "fact_recall_pct": 100,
+      "fact_hits": {
+        "11:00": true,
+        "invoice": true,
+        "set-off": true
+      },
+      "citation_ok": true,
+      "faithfulness": 3,
+      "latency_s": 8.42,
+      "passed": true
+    },
+    {
+      "id": 9,
+      "question": "What happened to case CV-2023-4401 (Lakeview Society v. City Water Board), and what is the next date?",
+      "answer_snippet": "Case CV-2023-4401 (Lakeview Society v. City Water Board) concerned a request for interim relief regarding water supply. The case has been adjourned. The next date for this case is 22 September 2025.\n\nParties involved in hearings are required to file written arguments seven clear days before the list",
+      "citations": [
+        "03_hearing_notice_template.md"
+      ],
+      "fact_recall_pct": 100,
+      "fact_hits": {
+        "adjourned": true,
+        "22 September 2025": true,
+        "water": true
+      },
+      "citation_ok": true,
+      "faithfulness": 3,
+      "latency_s": 21.18,
+      "passed": true
+    },
+    {
+      "id": 10,
+      "question": "For commercial suits above five lakh fictional rupees, what does Section 14 say about mediation?",
+      "answer_snippet": "According to Section 14 of the Riverside Commercial Courts Act, a commercial suit involving an amount above five lakh fictional rupees is subject to mandatory mediation for a period of 30 days. This requirement applies unless both parties involved in the suit provide a written waiver of the mediatio",
+      "citations": [
+        "04_statute_style_excerpt_fictional.md"
+      ],
+      "fact_recall_pct": 100,
+      "fact_hits": {
+        "mediation": true,
+        "30 days": true,
+        "waive": true
+      },
+      "citation_ok": true,
+      "faithfulness": 3,
+      "latency_s": 5.48,
+      "passed": true
+    },
+    {
+      "id": 11,
+      "question": "If a contract fixes no interest rate, what rate may be awarded on admitted dues under Section 22?",
+      "answer_snippet": "If a contract fixes no rate of interest, simple interest at 9% per year may be awarded on admitted dues from the date of demand until the date of payment under Section 22.",
+      "citations": [
+        "04_statute_style_excerpt_fictional.md"
+      ],
+      "fact_recall_pct": 100,
+      "fact_hits": {
+        "9%": true,
+        "simple interest": true,
+        "demand": true
+      },
+      "citation_ok": true,
+      "faithfulness": 3,
+      "latency_s": 22.85,
+      "passed": true
+    },
+    {
+      "id": 12,
+      "question": "What settlement offer did Northfield make in the counsel notes, and what counter-instruction did the client give?",
+      "answer_snippet": "In the counsel notes for the matter of Arvind Mehta v. Northfield Logistics, Northfield made a settlement offer to pay 70 percent of open invoices, provided that Arvind drops the damage counterclaim. The client provided a counter-instruction to counter at 85 percent of the open invoices and to keep ",
+      "citations": [
+        "05_counsel_notes_settlement.md"
+      ],
+      "fact_recall_pct": 100,
+      "fact_hits": {
+        "70 percent": true,
+        "85 percent": true,
+        "counterclaim": true,
+        "1 August 2025": true
+      },
+      "citation_ok": true,
+      "faithfulness": 3,
+      "latency_s": 4.85,
+      "passed": true
+    },
+    {
+      "id": 13,
+      "question": "Are the settlement talks described in the counsel notes binding? What is the reminder?",
+      "answer_snippet": "The settlement talks described in the counsel notes are not binding. The reminder stated in the counsel notes is that settlement talks are without prejudice unless a signed term sheet exists.\n\nAs part of the current instructions regarding these negotiations, the client has directed to counter the of",
+      "citations": [
+        "05_counsel_notes_settlement.md",
+        "01_matter_memo_arvind_v_northfield.md"
+      ],
+      "fact_recall_pct": 100,
+      "fact_hits": {
+        "without prejudice": true,
+        "term sheet": true
+      },
+      "citation_ok": true,
+      "faithfulness": 3,
+      "latency_s": 5.72,
+      "passed": true
+    },
+    {
+      "id": 14,
+      "question": "Who is the lessor and lessee for Unit 4B at Harbor View Tower, and what is the monthly rent?",
+      "answer_snippet": "The lessor for Unit 4B at Harbor View Tower is Kiran Patel, and the lessee is Harbor Bean Roasters OPC. The monthly rent for this unit is \u20b945,000. Additionally, a security deposit of \u20b91,35,000, which equals three months of rent, is held and is refundable within 45 days of handover, provided there is",
+      "citations": [
+        "06_property_lease_clause.md"
+      ],
+      "fact_recall_pct": 75,
+      "fact_hits": {
+        "Kiran Patel": true,
+        "Harbor Bean": true,
+        "45,000": true,
+        "45000": false
+      },
+      "citation_ok": true,
+      "faithfulness": 3,
+      "latency_s": 7.36,
+      "passed": true
+    },
+    {
+      "id": 15,
+      "question": "What is the security deposit amount, and within how many days must it be refunded after handover?",
+      "answer_snippet": "The security deposit amount for Unit 4B at Harbor View Tower is 1,35,000 rupees. This deposit is refundable within 45 days of handover, provided there is no damage beyond normal wear.",
+      "citations": [
+        "06_property_lease_clause.md"
+      ],
+      "fact_recall_pct": 67,
+      "fact_hits": {
+        "1,35,000": true,
+        "135000": false,
+        "45 days": true
+      },
+      "citation_ok": true,
+      "faithfulness": 3,
+      "latency_s": 5.62,
+      "passed": true
+    },
+    {
+      "id": 16,
+      "question": "Is subletting allowed for the Harbor View lease without extra steps?",
+      "answer_snippet": "No, subletting is not allowed for the Harbor View lease without extra steps. According to the lease agreement for Unit 4B at Harbor View Tower, subletting is prohibited unless the lessee obtains the written consent of the lessor, Kiran Patel.",
+      "citations": [
+        "06_property_lease_clause.md"
+      ],
+      "fact_recall_pct": 100,
+      "fact_hits": {
+        "not allowed": true,
+        "written consent": true
+      },
+      "citation_ok": true,
+      "faithfulness": 3,
+      "latency_s": 9.09,
+      "passed": true
+    }
+  ],
+  "out_of_corpus": [
+    {
+      "id": "O1",
+      "question": "What is the population of Riverside city?",
+      "answer_snippet": "I cannot find relevant information in the provided document set to answer your question.",
+      "correctly_refused": true,
+      "faithfulness": 3,
+      "latency_s": 3.18,
+      "passed": true
+    },
+    {
+      "id": "O2",
+      "question": "What penalty applies if Priya breaches the non-compete?",
+      "answer_snippet": "I cannot find relevant information in the provided document set to answer your question.",
+      "correctly_refused": true,
+      "faithfulness": 3,
+      "latency_s": 12.8,
+      "passed": true
+    },
+    {
+      "id": "O3",
+      "question": "Who won case CV-2024-8812?",
+      "answer_snippet": "I cannot find relevant information in the provided document set to answer your question.",
+      "correctly_refused": true,
+      "faithfulness": 3,
+      "latency_s": 19.27,
+      "passed": true
+    }
+  ]
+}

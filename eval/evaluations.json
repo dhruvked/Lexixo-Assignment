@@ -101,7 +101,12 @@
     "id": 12,
     "type": "in_corpus",
     "question": "What settlement offer did Northfield make in the counsel notes, and what counter-instruction did the client give?",
-    "expected_facts": ["70%", "85%", "counterclaim", "1 August 2025"],
+    "expected_facts": [
+      "70 percent",
+      "85 percent",
+      "counterclaim",
+      "1 August 2025"
+    ],
     "expected_source_files": ["05_counsel_notes_settlement.md"]
   },
   {

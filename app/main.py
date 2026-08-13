@@ -18,7 +18,6 @@ def ask(payload: QuestionRequest):
     if not user_question:
             raise HTTPException(status_code=400, detail="Question cannot be empty.")
 
-    # Build the initial state and invoke the LangGraph workflow
     initial_state = {
         "question": user_question,
         "documents": [],
@@ -33,6 +32,7 @@ def ask(payload: QuestionRequest):
         "question": user_question,
         "answer": final_state["answer"],
         "citations": final_state["citations"],
+        "documents": final_state["documents"], 
         "status": "success",
         "step_count": final_state["step_count"]
     }
