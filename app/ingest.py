@@ -77,7 +77,7 @@ def embed_chunks():
     print(f"\nUpserting {len(vectors_to_upload)} total vectors to Pinecone...")
     index.upsert(vectors=vectors_to_upload)
     
-    print("\n✅ Ingestion Complete!")
+    print("\nIngestion Complete!")
     stats = index.describe_index_stats()
     print(f"Pinecone Vector Count: {stats.get('total_vector_count')}")
 
