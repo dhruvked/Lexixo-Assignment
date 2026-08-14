@@ -6,7 +6,7 @@ A legal document Question-Answering HTTP API built with **Python 3.12**, **LangG
 
 ## Video Walkthrough & Demo
 
-- **Submission Video**: [Link to 5–10 Min Video Walkthrough](YOUR_VIDEO_URL_HERE) _(Replace with your video link)_
+- **Submission Video**: [Video Walkthrough](docs/Video%20Walkthrough.mp4)
 
 ---
 
@@ -133,7 +133,7 @@ curl -X POST "http://127.0.0.1:8000/ask" \
 
 ---
 
-##  Running Automated Evaluation
+## Running Automated Evaluation
 
 Run the evaluation test suite against 19 gold test cases (rule-based fact recall + LLM-as-judge faithfulness):
 
@@ -145,7 +145,7 @@ Detailed test outputs are saved to [`eval/eval_results.json`](eval/eval_results.
 
 ---
 
-##  Architecture & LangGraph Flow
+## Architecture & LangGraph Flow
 
 For a full breakdown of graph nodes, state transitions, and Mermaid diagrams, see [`docs/langgraph.md`](docs/langgraph.md).
 
